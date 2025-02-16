@@ -1,8 +1,8 @@
+import { crx } from "@crxjs/vite-plugin";
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
 import * as path from "path";
 import { defineConfig } from "vite";
-import { crx } from "@crxjs/vite-plugin";
-import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
 
 import manifest from "./src/manifest";
 
