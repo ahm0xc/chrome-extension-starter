@@ -6,12 +6,6 @@
   "description": "",
   "type": "module",
   "license": "MIT",
-  "keywords": [
-    "chrome-extension",
-    "react",
-    "vite",
-    "create-chrome-ext"
-  ],
   "engines": {
     "node": ">=14.18.0"
   },
