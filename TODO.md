@@ -1,3 +1,4 @@
 - add dark mode support
 - add script "build:watch": "nodemon --watch src --ext ts --exec 'npm run build'"
 - add anfu eslint & remove prettier
+- clean up
