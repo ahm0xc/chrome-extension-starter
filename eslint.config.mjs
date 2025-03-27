@@ -11,7 +11,7 @@ export default antfu(
       semi: true,
       quotes: "double",
     },
-    ignores: ["src/routeTree.gen.ts"],
+    ignores: ["src/routeTree.gen.ts", ".github", "TODO.md"],
   },
   {
     rules: {
@@ -36,5 +36,5 @@ export default antfu(
         },
       ],
     },
-  }
+  },
 );

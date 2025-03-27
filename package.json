@@ -1,10 +1,10 @@
 {
   "name": "chrome-extension-starter",
   "displayName": "chrome-extension-starter",
-  "version": "0.0.0",
-  "author": "**",
-  "description": "",
   "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "author": "**",
   "license": "MIT",
   "engines": {
     "node": ">=14.18.0"
