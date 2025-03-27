@@ -1,5 +1,10 @@
-import React from "react";
+import ThemeSwitcher from "~/components/theme-switcher";
 
 export default function Options() {
-  return <div>Options</div>;
+  return (
+    <div>
+      Options
+      <ThemeSwitcher />
+    </div>
+  );
 }

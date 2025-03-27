@@ -2,10 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "../globals.css";
+
+import { ThemeProvider } from "~/components/theme-provider";
+
 import NewTab from "./new-tab";
 
 ReactDOM.createRoot(document.getElementById("app") as HTMLElement).render(
   <React.StrictMode>
-    <NewTab />
+    <ThemeProvider>
+      <NewTab />
+    </ThemeProvider>
   </React.StrictMode>,
 );
